@@ -998,11 +998,11 @@
             
             <hr>
 
-            <div class="lg:mt-[48px] lg:mb-[48px] mt-[24px] mb-[40px]">
+            <div class="lg:mt-[48px] lg:mb-[48px] mt-[24px] mb-[40px] lg:flex lg:gap-[24px] ">
 
                 <!-- Contact Container -->
 
-                <div class="border-[1px] lg:p-[50px] p-[24px] rounded-[16px] bg-white lg:rounded-[16px] lg:mb-[24px]">
+                <div class="border-[1px] lg:p-[50px] p-[24px] rounded-[16px] bg-white lg:rounded-[16px] lg:mb-[24px] ">
 
                     <div class="bg-[#bced6d19] rounded-[16px] lg:p-[32px] p-[24px] lg:mb-[24px] mb-[16px]">
                         <div class="pb-[24px]">
@@ -1043,6 +1043,43 @@
                 <!-- Form Container -->
 
                 <div>
+                    <div class=" flex-cols lg:flex lg:gap-[24px]  lg:w-full">
+
+                        <!-- Left side -->
+                        <div>
+                           
+                            <div>
+                                <p class="text-[20px] mb-[16px] font-bold">Your Name</p>
+                                <input class="bg-[#13131807] rounded-[12px] text-[16px] px-[20px] py-[21px] lg:mb-[24px] mb-[20px] w-full lg:w-[450px]" type="text" name="" id="" placeholder="Enter your full name" >
+                            </div>
+                            <div>
+                                <p class="text-[20px] mb-[16px] font-bold">Subject</p>
+                                <input class="bg-[#13131807] rounded-[12px] text-[16px] px-[20px] py-[21px] w-full lg:mb-[24px] mb-[20px] "  type="text" name="" id="" placeholder="Enter your subject">
+                            </div>
+                        </div>
+
+                        <!-- Right side -->
+                        <div>
+                            
+                            <div>
+                                <p class="text-[20px] mb-[16px] font-bold">Your Email</p>
+                                <input class="bg-[#13131807] rounded-[12px] text-[16px] px-[20px] py-[21px] lg:mb-[24px] w-full lg:w-[450px]  mb-[20px] "  type="email" name="" id="" placeholder="Enter your email">
+                            </div>
+                            <div>
+                                <p class="text-[20px] mb-[16px] font-bold">Phone Number</p>
+                                <input class="bg-[#13131807] rounded-[12px] text-[16px] px-[20px] py-[21px] w-full  mb-[20px] "  type="text" name="" id="" placeholder="Enter your phone number">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-[20px] mb-[16px] font-bold">Message</p>
+                        <textarea class=" bg-[#13131807] rounded-[12px] text-[16px] px-[20px] py-[21px] w-full  mb-[32px] " name="" id="" cols="30" rows="11" placeholder="Write your message"></textarea>
+                    </div>
+
+                    <div class="bg-[#FF4240] text-white border-none rounded-[16px] py-[15px] text-center">
+                        <button className="btn  ">Send Message</button>
+                    </div>
                     
                 </div>
             </div>
